@@ -1,0 +1,25 @@
+<?php
+require_once("error-message.php");
+function session_message()
+{
+    session('change');
+    session('Unauthorized');
+    session('add');
+    session('login');
+    session('login-check');
+    session("add");
+    session("update");
+    session("change");
+    session("add_category");
+    session("category-not-found");
+    session("update-order");
+    session("upload");
+    session("delete_food");
+    session("update_category");
+    session("update_food");
+    session("remove");
+    session("delete");
+    session('category');
+    session('order');
+}
+?>
